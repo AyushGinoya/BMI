@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/llMain"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint="@string/hint_wt"
+        android:inputType="number" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_htf"
+        android:ems="12"
+        android:id="@+id/etHeightFt"
+        android:layout_marginTop="5dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_hti"
+        android:ems="12"
+        android:id="@+id/etHeightIh"
+        android:layout_marginTop="20dp"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_txt"
+        android:backgroundTint="@color/material_dynamic_primary60"
+        android:layout_marginTop="5dp"
+        android:id="@+id/btnRes" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn2_txt"
+        android:backgroundTint="@color/material_dynamic_primary60"
+        android:layout_marginTop="5dp"
+        android:id="@+id/btnReset" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResult"
+        android:text="Result"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+
+
+</LinearLayout>
